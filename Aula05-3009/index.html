@@ -4,8 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 30/09 - CSS</title>
+    <style>
+        span {
+            border-color: black; 
+            border-style: solid; 
+            color: blue;
+        }
+        h1 {
+            color: #4040ff; 
+            background-color: #dddddd;
+        }
+        #caixa {
+            color: purple; 
+            background-color: yellow;
+        }
+        .comBorda {
+            border-style: solid;
+            border-color: #140d60;
+        }
+        .rotulo {
+            color: #140d60;
+            background-color: #ff8080;
+        }
+        .botaoLindao {
+            border-style: solid;
+            border-color: black;
+            border-radius: 5px;
+            padding: 3px 5px 3px 5px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     
+    <h1 class="comBorda">
+        oi Gente! Tudo bem?
+    </h1>
+    <span>
+        oi Gente! Tudo bem?
+    </span>
+    <span>
+        Alguma coisa aqui
+    </span>
+    <div id="caixa">
+        Alguma coisa aqui
+    </div>
+    <div style="margin-top: 15px;">
+        <a class="rotulo comBorda" href="https://www.goggle.com">
+            Clique aqui para i ao GOOGLE
+        </a>
+        <span class="botaoLindao">
+            Clique aqui para i ao GOOGLE
+        </span>
+        <a class="botaoLindao" href="https://www.github.com">
+            Clique aqui para i ao GITHUB
+        </a>
+        <button>um botaão</button>    
+    </div>
+
 </body>
 </html>
