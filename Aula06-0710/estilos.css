@@ -1,0 +1,48 @@
+.card {
+    width: 400px;
+    border: 1px solid black;
+}
+
+.card .title {
+    font-weight: 700;
+    padding: 5px 10px;  
+    font-size: 13pt;
+}
+
+.card .subtitle {
+    font-weight: 500;
+    padding: 0px 10px;  
+    font-size: 11pt;
+}
+
+.card img {
+    width: 400px;
+    height: 100px;
+}
+
+.card .avatar {
+    margin-top: -60px;
+    text-align: center;
+}
+
+.card .avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px; 
+    border: 2px solid white;
+}
+
+.card .footer {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card .footer button {
+    margin: 0px 5px;
+    background-color: #4040ff;
+    padding: 4px 8px;
+    border-radius: 3px;
+    border: 1px solid #aaaaaa;
+    color: white;
+}
