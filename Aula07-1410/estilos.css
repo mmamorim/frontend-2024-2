@@ -1,0 +1,62 @@
+
+.container {
+    border: 1px solid black;
+    display: flex;
+    justify-content: start;
+    height: 100px;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.item {
+    border: 1px solid black;
+    height: 50px;
+    flex: 2
+}
+
+.item2 {
+    border: 1px solid black;
+    height: 70px;
+    flex: 1;
+}
+
+.user-item {
+    margin: 20px 0px;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    padding: 3px 5px;
+    gap: 5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+    padding: 3px 5px;
+}
+
+.btn-img {
+    width: 28px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.avatar {
+    border-radius: 10px;
+    width: 40px;
+}
+
+.user-name {
+    font-size: 9pt;
+    font-weight: 700;
+}
+
+.user-descr {
+    font-size: 8pt;
+}
