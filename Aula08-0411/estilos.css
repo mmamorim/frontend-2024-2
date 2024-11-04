@@ -28,3 +28,7 @@
     border: 1px solid black;
     padding: 2px;
 }
+
+.menu-subitens-hidden {
+    display: none;
+}
