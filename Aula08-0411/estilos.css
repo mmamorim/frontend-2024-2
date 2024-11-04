@@ -1,0 +1,30 @@
+
+.menu {
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+}
+
+.menu-item {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.menu-item-label {
+    margin: 0px 4px;
+    cursor: pointer;
+    background-color: #404040;
+    padding: 2px 4px;
+    color: white;
+    border-radius: 3px;
+}
+
+.menu-item-label:hover {
+    color: black;
+    background-color: #dddddd;
+}
+
+.menu-itens {
+    border: 1px solid black;
+    padding: 2px;
+}
